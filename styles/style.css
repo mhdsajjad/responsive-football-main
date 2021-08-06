@@ -1,0 +1,83 @@
+/* font style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* ------common style or utilities ----*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 1050px;
+  margin-bottom: 158px;
+}
+
+/* --- top football players syles start --- */
+
+.foodball-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+
+.player {
+  overflow-wrap: break-word;
+  margin-top: 27px;
+  margin-left: 30px;
+  margin-bottom: 27px;
+  margin-right: 27px;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+/* --- top football players syles end --- */
+
+/* --- highlights syles start --- */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.highlights-blogs {
+  margin-right: 78px;
+}
+.highlights-blogs h2 {
+  font-size: 43px;
+  line-height: 60px;
+}
+.beutifull-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e02c6d;
+  border-radius: 5px;
+  padding: 10px 24px;
+}
+.highlights-image img {
+  width: 567px;
+  height: 427px;
+}
+/* --- highlights syles end --- */
+/* ----footer section start----- */
+.footer-eliment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 483.87px;
+  height: 110px;
+}
+.fab {
+  margin: 5px;
+}
+/* ----footer section end----- */
